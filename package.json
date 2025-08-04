@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/rubaka-pl/portfolio-with-three.js",
+  "homepage": "https://rubaka-pl.github.io/portfolio-with-three.js/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
