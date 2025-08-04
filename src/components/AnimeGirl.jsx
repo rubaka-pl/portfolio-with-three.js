@@ -16,6 +16,7 @@ const AnimeGirl = ({ targetRef, ...props }) => {
     {
       info: {
         value: 'Feel free to spin wolfie girl!',
+        label: false,
         editable: false,
         monitor: true,
       },
@@ -29,7 +30,7 @@ const AnimeGirl = ({ targetRef, ...props }) => {
     },
   );
 
-  const { nodes, materials, animations } = useGLTF('@models/scene.gltf');
+  const { nodes, materials, animations } = useGLTF('/models/scene.gltf');
   const { actions } = useAnimations(animations, targetRef);
 
   useEffect(() => {
@@ -301,4 +302,4 @@ const AnimeGirl = ({ targetRef, ...props }) => {
 
 export default AnimeGirl;
 
-useGLTF.preload('@models/scene.gltf');
+useGLTF.preload('/models/scene.gltf');
