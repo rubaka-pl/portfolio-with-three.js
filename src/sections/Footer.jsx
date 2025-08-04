@@ -19,7 +19,7 @@ const Footer = () => {
           className="social-icon"
           whileHover={{ scale: 1.2, rotate: 5 }}
           transition={{ type: 'spring', stiffness: 300 }}>
-          <img src="@assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
+          <img src="assets/github.svg" alt="GitHub" className="w-1/2 h-1/2" />
         </motion.a>
 
         <motion.a
@@ -29,7 +29,7 @@ const Footer = () => {
           className="social-icon"
           whileHover={{ scale: 1.2, rotate: -5 }}
           transition={{ type: 'spring', stiffness: 300 }}>
-          <img src="@assets/linkedin.svg" alt="LinkedIn" className="w-1/2 h-1/2" />
+          <img src="assets/linkedin.svg" alt="LinkedIn" className="w-1/2 h-1/2" />
         </motion.a>
       </motion.div>
 
