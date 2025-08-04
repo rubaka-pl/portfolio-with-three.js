@@ -12226,61 +12226,61 @@
       "uri": "textures/CosA_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/CosA_mt_metallicRoughness.png"
+      "uri": "textures/CosA_mt_metallicRoughness.jpg"
     },
     {
       "uri": "textures/CosA_mt_emissive.jpg"
     },
     {
-      "uri": "textures/CosB_mt_baseColor.png"
+      "uri": "textures/CosB_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/CosB_mt_metallicRoughness.png"
+      "uri": "textures/CosB_mt_metallicRoughness.jpg"
     },
     {
       "uri": "textures/CosB_mt_emissive.jpg"
     },
     {
-      "uri": "textures/Body_mt_baseColor.png"
+      "uri": "textures/Body_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/Body_mt_metallicRoughness.png"
+      "uri": "textures/Body_mt_metallicRoughness.jpg"
     },
     {
-      "uri": "textures/Body_mt_emissive.png"
+      "uri": "textures/Body_mt_emissive.jpg"
     },
     {
-      "uri": "textures/HairA_mt_baseColor.png"
+      "uri": "textures/HairA_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/HairA_mt_metallicRoughness.png"
+      "uri": "textures/HairA_mt_metallicRoughness.jpg"
     },
     {
-      "uri": "textures/HairA_mt_emissive.png"
+      "uri": "textures/HairA_mt_emissive.jpg"
     },
     {
-      "uri": "textures/HairB_mt_baseColor.png"
+      "uri": "textures/HairB_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/HairB_mt_metallicRoughness.png"
+      "uri": "textures/HairB_mt_metallicRoughness.jpg"
     },
     {
-      "uri": "textures/HairB_mt_emissive.png"
+      "uri": "textures/HairB_mt_emissive.jpg"
     },
     {
-      "uri": "textures/Face_mt_baseColor.png"
+      "uri": "textures/Face_mt_baseColor.jpg"
     },
     {
-      "uri": "textures/Face_mt_metallicRoughness.png"
+      "uri": "textures/Face_mt_metallicRoughness.jpg"
     },
     {
-      "uri": "textures/Face_mt_emissive.png"
+      "uri": "textures/Face_mt_emissive.jpg"
     },
     {
       "uri": "textures/Cheek_mt_baseColor.png"
     },
     {
-      "uri": "textures/lambert2_baseColor.png"
+      "uri": "textures/lambert2_baseColor.jpg"
     }
   ],
   "materials": [
