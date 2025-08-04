@@ -26,9 +26,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Daniel Shapovalov',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'shapovalov.pr@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -49,7 +49,7 @@ const Contact = () => {
               email: '',
               message: '',
             });
-          }, [3000]);
+          }, 3000);
         },
         (error) => {
           setLoading(false);
@@ -72,55 +72,57 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
+          <h3 className="head-text">Let&apos;s talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
-            life, I’m here to help.
+            I&apos;m currently looking for new opportunities. If you have a project that needs a frontend developer, or
+            you&apos;re an HR interested in connecting - feel free to reach out.
           </p>
 
           <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
-            <label className="space-y-3">
+            <label htmlFor="name" className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
+                id="name"
                 type="text"
                 name="name"
                 value={form.name}
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
               />
             </label>
 
-            <label className="space-y-3">
+            <label htmlFor="email" className="space-y-3">
               <span className="field-label">Email address</span>
               <input
+                id="email"
                 type="email"
                 name="email"
                 value={form.email}
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
               />
             </label>
 
-            <label className="space-y-3">
+            <label htmlFor="message" className="space-y-3">
               <span className="field-label">Your message</span>
               <textarea
+                id="message"
                 name="message"
                 value={form.message}
                 onChange={handleChange}
                 required
+                maxLength={600}
                 rows={5}
-                className="field-input"
+                className="field-input resize-none"
                 placeholder="Share your thoughts or inquiries..."
               />
+              <p className="text-sm text-white-500 mt-1">{form.message.length} / 600 characters</p>
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
-
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
           </form>

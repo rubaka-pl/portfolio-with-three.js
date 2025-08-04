@@ -3,20 +3,25 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/rubaka-pl/portfolio-with-three.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@gsap/react": "^2.1.1",
-    "@react-three/drei": "^9.111.3",
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.17.6",
     "@types/three": "^0.168.0",
-    "gsap": "^3.12.5",
-    "leva": "^0.9.35",
+    "framer-motion": "^12.23.12",
+    "gh-pages": "^6.3.0",
+    "gsap": "^3.13.0",
+    "leva": "^0.9.36",
     "maath": "^0.10.8",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
@@ -40,6 +45,6 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",
-    "vite": "^5.4.1"
+    "vite": "^7.0.6"
   }
 }
