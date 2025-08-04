@@ -28,7 +28,7 @@ export const myProjects = [
     subdesc:
       'Built using WordPress Multisite with PHP, SQL, and JavaScript, the system allows for easy creation, assignment, and monitoring of promo codes. The landing page provides real-time insights for ambassadors on their code usage, ensuring transparency and engagement.',
     href: 'https://github.com/rubaka-pl/ParkingMetalBox?tab=readme-ov-file',
-    texture: '/textures/project/pmb.mp4',
+    texture: `${import.meta.env.BASE_URL}textures/project/pmb.mp4`,
     logo: 'assets/pmb.png',
     logoStyle: {
       backgroundColor: '#2A1816',
@@ -43,7 +43,7 @@ export const myProjects = [
     subdesc:
       'The app uses live data from the PokéAPI and is organized into clear folders: api, components, types, and utils. Designed for performance and easy navigation with dynamic routing.',
     href: 'https://github.com/rubaka-pl/rss-school/tree/app-state-management',
-    texture: '/textures/project/pokemon.mp4',
+    texture: `${import.meta.env.BASE_URL}textures/project/pokemon.mp4`,
     logo: 'assets/pokemon.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -58,7 +58,7 @@ export const myProjects = [
     subdesc:
       'This project integrates Redux Framework for global settings, ACF for custom sections, and RWD for seamless mobile and desktop experience. Includes Swiper.js slider, contact booking system, and multi-language support.',
     href: 'https://linen-worm-330260.hostingersite.com/',
-    texture: 'textures/project/Vinyasa.mp4',
+    texture: `${import.meta.env.BASE_URL}textures/project/Vinyasa.mp4`,
     logo: 'assets/vinyasa-logo.svg',
     logoStyle: {
       backgroundColor: 'rgb(15 37 35 / 86%)',
