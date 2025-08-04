@@ -29,13 +29,13 @@ export const myProjects = [
       'Built using WordPress Multisite with PHP, SQL, and JavaScript, the system allows for easy creation, assignment, and monitoring of promo codes. The landing page provides real-time insights for ambassadors on their code usage, ensuring transparency and engagement.',
     href: 'https://github.com/rubaka-pl/ParkingMetalBox?tab=readme-ov-file',
     texture: '/textures/project/pmb.mp4',
-    logo: '/assets/pmb.png',
+    logo: '@assets/pmb.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '@assets/spotlight1.png',
   },
   {
     title: 'Pokedex - Pokémons Browser with API & Autocomplete',
@@ -44,13 +44,13 @@ export const myProjects = [
       'The app uses live data from the PokéAPI and is organized into clear folders: api, components, types, and utils. Designed for performance and easy navigation with dynamic routing.',
     href: 'https://github.com/rubaka-pl/rss-school/tree/app-state-management',
     texture: '/textures/project/pokemon.mp4',
-    logo: '/assets/pokemon.png',
+    logo: '@assets/pokemon.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
       boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: '@ssets/spotlight2.png',
   },
   {
     title: 'Vinyasa Yoga Studio – WordPress Multipage Site',
@@ -58,14 +58,14 @@ export const myProjects = [
     subdesc:
       'This project integrates Redux Framework for global settings, ACF for custom sections, and RWD for seamless mobile and desktop experience. Includes Swiper.js slider, contact booking system, and multi-language support.',
     href: 'https://linen-worm-330260.hostingersite.com/',
-    texture: '/textures/project/Vinyasa.mp4',
-    logo: '/assets/vinyasa-logo.svg',
+    texture: '@textures/project/Vinyasa.mp4',
+    logo: '@assets/vinyasa-logo.svg',
     logoStyle: {
       backgroundColor: 'rgb(15 37 35 / 86%)',
       border: '0.2px solid #2A1816',
       boxShadow: '0px 0px 60px 0px rgba(89, 99, 156, 0.5)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: '@assets/spotlight3.png',
   },
 ];
 
@@ -88,7 +88,7 @@ export const workExperiences = [
     title: `I’m taking part in a free self-paced frontend course with mentor support. 
     Each participant builds their own unique project. Mine is a Pokédex app. I'm using this opportunity to sharpen my skills in TypeScript and Redux, while following modern development practices.
      We collaborate through Discord, sharing feedback, progress, and learning as a community. The course structure helps me grow independently, yet with guidance when needed.'`,
-    icon: '/assets/rs-school.png',
+    icon: '@assets/rs-school.png',
     animation: 'salute',
   },
   {
@@ -100,7 +100,7 @@ export const workExperiences = [
     Experience with creating custom admin pages, writing SQL, building 
     simple business websites and landing pages. Also worked with WordPress 
     multisite setups and database connections between sites`,
-    icon: '/assets/pmb.png',
+    icon: '@assets/pmb.png',
     animation: 'clapping',
   },
   {
@@ -114,7 +114,7 @@ communication between systems, writing test cases, preparing test data,
 and identifying, reporting, and verifying defects. I also deployed new 
 application versions to the test server for pre-production testing and 
 updated servers.`,
-    icon: '/assets/Neuca.svg',
+    icon: '@assets/Neuca.svg',
     animation: 'salute',
   },
 ];
