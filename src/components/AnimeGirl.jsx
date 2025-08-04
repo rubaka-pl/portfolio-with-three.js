@@ -30,7 +30,7 @@ const AnimeGirl = ({ targetRef, ...props }) => {
     },
   );
 
-  const { nodes, materials, animations } = useGLTF('/models/scene.gltf');
+  const { nodes, materials, animations } = useGLTF(`${import.meta.env.BASE_URL}models/scene.gltf`);
   const { actions } = useAnimations(animations, targetRef);
 
   useEffect(() => {
@@ -302,4 +302,4 @@ const AnimeGirl = ({ targetRef, ...props }) => {
 
 export default AnimeGirl;
 
-useGLTF.preload('/models/scene.gltf');
+useGLTF.preload(`${import.meta.env.BASE_URL}models/scene.gltf`);

@@ -8,13 +8,13 @@ const DeveloperModel = ({ animationName = 'idle', ...props }) => {
   const group = useRef();
 
   // Clone scene safely
-  const { scene } = useGLTF('/models/animations/developer.glb');
+  const { scene } = useGLTF(`${import.meta.env.BASE_URL}models/animations/developer.glb`);
   const clonedScene = useMemo(() => SkeletonUtils.clone(scene), [scene]);
   const { nodes, materials } = useGraph(clonedScene);
 
-  const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
-  const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx');
-  const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
+  const { animations: idleAnimation } = useFBX(`${import.meta.env.BASE_URL}models/animations/idle.fbx`);
+  const { animations: saluteAnimation } = useFBX(`${import.meta.env.BASE_URL}models/animations/salute.fbx`);
+  const { animations: clappingAnimation } = useFBX(`${import.meta.env.BASE_URL}models/animations/clapping.fbx`);
 
   idleAnimation[0].name = 'idle';
   saluteAnimation[0].name = 'salute';
@@ -102,9 +102,9 @@ const Developer = (props) => (
   </Suspense>
 );
 
-useGLTF.preload('/models/animations/developer.glb');
-useFBX.preload('/models/animations/idle.fbx');
-useFBX.preload('/models/animations/salute.fbx');
-useFBX.preload('/models/animations/clapping.fbx');
+useGLTF.preload(`${import.meta.env.BASE_URL}models/animations/developer.glb`);
+useFBX.preload(`${import.meta.env.BASE_URL}models/animations/idle.fbx`);
+useFBX.preload(`${import.meta.env.BASE_URL}models/animations/salute.fbx`);
+useFBX.preload(`${import.meta.env.BASE_URL}models/animations/clapping.fbx`);
 
 export default Developer;
