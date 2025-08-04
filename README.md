@@ -1,8 +1,8 @@
 # Portfolio with 3D Character
 
 Welcome to my personal portfolio — a space where I showcase my work, skills, and experience, with a creative twist using 3D elements.
-
----
+## PREVIEW
+[CLICK](https://rubaka-pl.github.io/portfolio-with-three.js/) 
 
 ## ⚙️ Tech Stack
 
@@ -28,4 +28,5 @@ Welcome to my personal portfolio — a space where I showcase my work, skills, a
 ## 🎨 About
 
 This is a portfolio website with a creative edge. The 3D character in the hero section adds a bit of interactivity and fun - you can rotate the model as part of the design.
+
 
